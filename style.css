@@ -1,0 +1,14 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.msg {
+  display: block;
+  width: calc(100% - 8px);
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <input id="chkSpeak" type="checkbox" onchange="SpeechToText()">
+    <label for="chkSpeak" class="check">Listen</label>
+    <select id="selLang" onchange="ChangeLang(this)">
+      <option value="en-US">English (United States)</option>
+      <option value="fr-FR">French (France)</option>
+      <option value="ru-RU">Russian (Russia)</option>
+      <option value="pt-BR">Portuguese (Brazil)</option>
+      <option value="es-ES">Spanish (Spain)</option>
+      <option value="de-DE">German (Germany)</option>
+      <option value="it-IT">Italian (Italy)</option>
+      <option value="pl-PL">Polish (Poland)</option>
+      <option value="nl-NL">Dutch (Netherlands)</option>
+    </select>
+  </div>
+  <p>
+    <input class="msg" id="msg">
+  </p>
+  <p id="res"></p>
+  <script src="script.js"></script>
+</body>
+
+</html>
